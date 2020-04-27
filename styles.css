@@ -5,17 +5,17 @@ body {
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  margin: 0px;
   display: flex;
   flex-direction: column;
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
 header {
+  background: #fff;
   position: sticky;
   top: 0;
   width: 100%;
-  background: #fff;
   z-index: 1;
 }
 
@@ -43,16 +43,16 @@ li {
   display: flex;
 }
 
-.nav-wrapper>.right-side>div,
-.nav-wrapper>.left-side {
+.nav-wrapper .right-side div,
+.nav-wrapper .left-side {
+  font-size: 0.9rem;
   margin-right: 20px;
   text-transform: uppercase;
-  font-size: 0.9rem;
 }
 
 .nav-link-wrapper {
-  height: 22px;
   border-bottom: 1px solid transparent;
+  height: 22px;
   transition: border-bottom 0.5s;
 }
 
@@ -61,14 +61,14 @@ li {
 }
 
 .active-nav-link span {
-  color: #000 !important;
+  color: #000;
 }
 
 .nav-link-wrapper span {
   color: #808080;
+  cursor: pointer;
   text-decoration: none;
   transition: color 0.5s;
-  cursor: pointer;
 }
 
 .nav-link-wrapper:hover {
@@ -97,27 +97,27 @@ li {
 }
 
 .img-text-wrapper {
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100%;
-  text-align: center;
-  width: 100%;
-  padding: 0;
   cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
 }
 
-.img-text-wrapper .subtitle {
-  transition: 1s;
+.subtitle {
   color: transparent;
   padding: 20px;
+  transition: 1s;
 }
 
 .image-blur {
-  transition: 1s;
   filter: brightness(10%);
+  transition: 1s;
 }
 
 .img-text-wrapper:hover .subtitle {
@@ -125,8 +125,8 @@ li {
 }
 
 .logo-wrapper img {
-  width: 50%;
   margin-bottom: 20px;
+  width: 50%;
 }
 
 .two-column-wrapper {
@@ -173,15 +173,15 @@ li {
 }
 
 .contact-details .icons {
+  background-size: 20px;
   font-size: 18px;
   font-weight: 500;
-  background-size: 20px;
   padding-left: 35px;
 }
 
 .address-map {
-  padding-top: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .address-map iframe {
@@ -215,8 +215,8 @@ li {
 #footer {
   background-color: #000;
   color: #fff;
-  text-align: center;
   padding: 30px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
