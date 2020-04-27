@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>About me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="copyright()">
+  <div class="container">
+    <header>
+      <div class="nav-wrapper">
+        <div class="left-side">Mariana Fluțar</div>
+        <div class="right-side">
+          <div class="nav-link-wrapper">
+            <span onclick="scrollToBottom('experience')">Experience</span>
+          </div>
+
+          <div class="nav-link-wrapper">
+            <span onclick="scrollToBottom('contact')">Contact</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div class="two-column-wrapper">
+        <div class="profile-image-wrapper">
+          <img src="images/about.png" alt="About">
+        </div>
+
+        <div class="profile-content-wrapper">
+          <h1 class="title">About me</h1>
+          <p>My name is Mariana and I have a very high passion for Front-end technologies. I am in IT industry since
+            2015 and since then I worked on a lot of projects where I develop good skills in JavaScript and PHP. I have
+            a very high attention to details, and I am a proactive person who will definitely get the job done. Able to
+            work under stress with tight deadlines and definitely a great team player!</p>
+          <p>In my free time I like to walk in the park, I practice regularly sport activities and I like volunteering
+            activities like planting trees. Oh, I forgot to mention, I like to read a lot, especially personal
+            development books.
+            In the future I want to gain more and more experience in the IT industry in order to go into a Project
+            Management direction.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="experience" class="experience">
+      <div class="two-column-wrapper">
+        <div class="content-wrapper">
+          <h1 class="title">Work experience</h1>
+          <h2>Devline Software <span class="from-to">(nov. 2015 - Present)</span></h2>
+          <div id="content"></div>
+        </div>
+        <div class="profile-image-wrapper">
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url(images/magento.png)"></div>
+            <div class="img-text-wrapper">
+              <div class="subtitle">Magento empowers thousands of retailers and brands with the best eCommerce
+                platforms and flexible cloud solutions to rapidly innovate and grow.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-items-wrapper">
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/html.png)"></div>
+          <div class="img-text-wrapper">
+            <div class="subtitle">Building website/applications structure</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/css.png)"></div>
+          <div class="img-text-wrapper">
+            <div class="subtitle">Style website/applications components</div>
+          </div>
+        </div>
+
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url(images/js.png)"></div>
+          <div class="img-text-wrapper">
+            <div class="subtitle">Define applications behaviour</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="two-column-wrapper">
+        <div class="profile-content-wrapper">
+          <h1 class="title">Contact</h1>
+          <ul class="contact-details">
+            <li>
+              <a href="mailto:mariana.flutar@gmail.com">
+                <span class="email icons"></span> mariana.flutar@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:0755995831">
+                <span class="phone icons"></span>0755995831
+              </a>
+            </li>
+            <li>
+              <span class="address icons"></span>Street Grigore
+              Alexandrescu 12, ap. 3,
+              Cluj-Napoca,
+              Romania
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mariana-flu%C8%9Bar-45b861b6/" target="_blank">
+                <span class="linkedin icons"></span>linkedin.com/in/mariana-fluțar-45b861b6
+              </a>
+            </li>
+            <li>
+              <span class="skype icons"></span>mariana.flutar
+            </li>
+            <li>
+              <a href="https://github.com/MarianaFlutar" target="_blank">
+                <span class="github icons"></span>github.com/MarianaFlutar
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="address-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2733.367040880952!2d23.550743150484315!3d46.757661254124855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e664946ad9d%3A0xe0a1b3862b79dc01!2sStrada%20Grigore%20Alexandrescu%2012%2C%20Cluj-Napoca%20400000!5e0!3m2!1sro!2sro!4v1587904958793!5m2!1sro!2sro"
+            height="400" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div id="footer"></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
